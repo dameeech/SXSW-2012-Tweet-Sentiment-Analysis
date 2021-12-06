@@ -20,7 +20,7 @@ Of the words in the corpus of all tweets, SXSW was represented equally in positi
 
 After our initial data exploration we decided to plug the tweets into a classification model to get some deeper insights into how people felt about specific things during the festival. Since our data was overwhelmingly positive, we had to work hard to minimize that imbalance to get the most accurate model. Following exhaustive classification modeling, we concluded that our random forest classification model performed the best with an overall accuracy of 88%. While that is not what we would call stellar performance, our goal was not to create a flawless model for future sentiment analysis. We needed the model to show us what specific things were talked about in a positive and negative way.
 
-### Feature Importances
+### Positive Feature Importances
 ![top_positive_words](https://user-images.githubusercontent.com/32643842/133358079-a2bd71ec-34b3-40ec-b5da-df66ae62be9e.png)
 ![positive_fi](https://user-images.githubusercontent.com/32643842/133358043-a809059f-5f5c-44b0-b89f-802f8f903f41.png)
 
@@ -28,6 +28,7 @@ We compared the most frequent words in positive and negative tweets with the fea
 
 For the equivalent comparison in regards to negative tweets, the word counts for Google and Apple are again similar yet Google’s influence on negative tweets eclipses that of Apple by about 13 times. It’s clear that people were not happy about Google’s overwhelming presence at the festival. As to whether this displeasure was in regard to the recently built Google Village at SXSW or about their newly introduced privacy policy, the tweets do not elucidate. As a last point, the word ‘people’ was one of the driving factors in determining negative sentiment which suggests that most attendees are not the biggest fans of people or crowds in general and is ironic in juxtaposition to the much hyped social networking apps, Highlight and Glancee, that were introduced at this year’s festival. It could also suggest that they found the event to be too crowded which we can take as a sign that the festival continues to be a big draw.
 
+### Negative Feature Importances
 ![tri_rfc_negative_fi](https://user-images.githubusercontent.com/32643842/133358274-638fde87-8da3-4230-a364-42970d661b8e.png)
 ![negative_fi](https://user-images.githubusercontent.com/32643842/133358287-782f86c9-00d9-4f42-836a-78a759a94a00.png)
 
