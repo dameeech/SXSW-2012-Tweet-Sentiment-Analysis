@@ -2,7 +2,7 @@
 
 ![Screen Shot 2021-09-14 at 9 52 13 PM](https://user-images.githubusercontent.com/32643842/133357488-81ac50ba-5f7f-4922-8361-151382411732.png)
 
-## Business Problem
+## Business Case
 Perform a sentiment analysis of the South by Southwest 2012 festival based on tweets sent by attendees. Make recommendations for the next event based on the findings.
 
 Our initial dataset had over 9,000 tweets with each tweet having a sentiment associated with it. During exploratory data analysis, we chose to concentrate on positive and negative tweets. This reduced our tweet count to 3548 tweets. 84% of these tweets had a positive sentiment and therefore, of note, our dataset is heavily skewed toward a positive sentiment. 
