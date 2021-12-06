@@ -7,17 +7,20 @@ Perform a sentiment analysis of the South by Southwest 2012 festival based on tw
 
 Our initial dataset had over 9,000 tweets with each tweet having a sentiment associated with it. During exploratory data analysis, we chose to concentrate on positive and negative tweets. This reduced our tweet count to 3548 tweets. 84% of these tweets had a positive sentiment and therefore, of note, our dataset is heavily skewed toward a positive sentiment. 
 
-### Positive Word Cloud
-![positive_wordcloud](https://user-images.githubusercontent.com/32643842/133357756-1c74d4a8-097e-4a69-882d-ff5b56b99d51.png)
-### Negative Word Cloud
-![negative_wordcloud](https://user-images.githubusercontent.com/32643842/133357763-07665439-2880-498c-b7ee-a34917b9435e.png)
-### Neutral Word Cloud
-![neutral_wordcloud](https://user-images.githubusercontent.com/32643842/133357774-a42c152c-3f31-40c9-8e74-dda192586e8c.png)
+## EDA
 
 Of the words in the corpus of all tweets, SXSW was represented equally in positive, negative, and even the discarded neutral tweets implying that its presence in a tweet did not affect the sentiment of the tweet but rather was in reference to the user being present at the festival. Ipad, Apple, Google, store and iphone were the most frequently used words in positive tweets. Similarly, ipad, Google, iphone, and Apple along with App were the most frequently used in negative tweets. This was unsurprising considering Apple and Google are the largest tech giants on the planet.
 
+### Positive, Negative and Neutral Word Clouds
+<p float="center">
+  <img width="33%" src="https://user-images.githubusercontent.com/32643842/133357756-1c74d4a8-097e-4a69-882d-ff5b56b99d51.png" alt>
+  <img width="33%" src="https://user-images.githubusercontent.com/32643842/133357763-07665439-2880-498c-b7ee-a34917b9435e.png" alt>
+  <img width="33%" src="https://user-images.githubusercontent.com/32643842/133357774-a42c152c-3f31-40c9-8e74-dda192586e8c.png" alt>
+</p>
+
 After our initial data exploration we decided to plug the tweets into a classification model to get some deeper insights into how people felt about specific things during the festival. Since our data was overwhelmingly positive, we had to work hard to minimize that imbalance to get the most accurate model. Following exhaustive classification modeling, we concluded that our random forest classification model performed the best with an overall accuracy of 88%. While that is not what we would call stellar performance, our goal was not to create a flawless model for future sentiment analysis. We needed the model to show us what specific things were talked about in a positive and negative way.
 
+### Feature Importances
 ![top_positive_words](https://user-images.githubusercontent.com/32643842/133358079-a2bd71ec-34b3-40ec-b5da-df66ae62be9e.png)
 ![positive_fi](https://user-images.githubusercontent.com/32643842/133358043-a809059f-5f5c-44b0-b89f-802f8f903f41.png)
 
