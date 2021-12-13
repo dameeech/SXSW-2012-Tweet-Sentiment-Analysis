@@ -1,6 +1,8 @@
 # SXSW 2012 Tweet Sentiment Analysis
 
-![Screen Shot 2021-09-14 at 9 52 13 PM](https://user-images.githubusercontent.com/32643842/133357488-81ac50ba-5f7f-4922-8361-151382411732.png)
+<p align="center">
+  <img width="75%" src="https://user-images.githubusercontent.com/32643842/133357488-81ac50ba-5f7f-4922-8361-151382411732.png" alt>
+</p>
 
 ## Business Case
 Perform a sentiment analysis of the South by Southwest 2012 festival based on tweets sent by attendees. Make recommendations for the next event based on the findings.
