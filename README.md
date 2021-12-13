@@ -21,8 +21,10 @@ Of the words in the corpus of all tweets, SXSW was represented equally in positi
 After our initial data exploration we decided to plug the tweets into a classification model to get some deeper insights into how people felt about specific things during the festival. Since our data was overwhelmingly positive, we had to work hard to minimize that imbalance to get the most accurate model. Following exhaustive classification modeling, we concluded that our random forest classification model performed the best with an overall accuracy of 88%. While that is not what we would call stellar performance, our goal was not to create a flawless model for future sentiment analysis. We needed the model to show us what specific things were talked about in a positive and negative way.
 
 ### Positive Feature Importances
-![top_positive_words](https://user-images.githubusercontent.com/32643842/133358079-a2bd71ec-34b3-40ec-b5da-df66ae62be9e.png)
-![positive_fi](https://user-images.githubusercontent.com/32643842/133358043-a809059f-5f5c-44b0-b89f-802f8f903f41.png)
+<p float="center">
+  <img width="48%" src="https://user-images.githubusercontent.com/32643842/133358079-a2bd71ec-34b3-40ec-b5da-df66ae62be9e.png" alt>
+  <img width="48%" src="https://user-images.githubusercontent.com/32643842/133358043-a809059f-5f5c-44b0-b89f-802f8f903f41.png" alt>
+</p>
 
 We compared the most frequent words in positive and negative tweets with the feature importances of words obtained from our model. As these bar graphs reveal, Apple and #Apple are both frequently used terms in addition to weighing heavily as to the overall positivity of an individual tweet. Google additionally showed to be important, however, although the word counts for Google and Apple are similar, Apple’s importance far outstrips that of Google. Notably, Pop-Up - which is referencing a pop up venue at the festival - has a significant influence on positive tweets especially when considering its relatively small word frequency.
 
